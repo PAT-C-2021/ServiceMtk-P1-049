@@ -21,6 +21,7 @@ namespace ServiceMtk_P1_20160140049
                 mf.Kode = "Inputan Yang Anda Masukkan Salah";
                 mf.Pesan = "Masukkan inputan yang benar";
                 throw new FaultException<MathFault>(mf);
+
             }
         }
         public int Kali(int a, int b)
